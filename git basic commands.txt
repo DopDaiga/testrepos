@@ -1,0 +1,59 @@
+ Create a new repository on the command line
+ 
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+ 
+# Push an existing repository from the command line
+ 
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+
+-----removed pushed env folder --------
+
+git rm -r --cached env*
+git commit -m "removed the env folder"
+git push 
+
+
+**********--------------------------------------------***********
+
+------ create a new repository on the command line ------
+
+echo "# flask_video_course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dop-dd/flask_video_course.git
+git push -u origin main
+
+
+-----push an existing repository from the command line -----
+
+git remote add origin https://github.com/Dop-dd/flask_video_course.git
+git branch -M main
+git push -u origin main
+
+
+Token
+
+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
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
